@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0 auto; 
+}
+
+.page1{
+    background: url("bga.jpg");
+    border-image: none;
+    background-size: cover;
+    display: grid;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    float: right;
+    text-decoration: none;
+    color:white;
+    padding: 0px 40px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 1%;
+    font-family: 'montserrat', sans-serif; 
+    font-weight: bolder;           
+}
+
+nav ul li a:hover{
+    color:#0f8da3;
+}
+
+#now{
+    color: #0f8da3;
+}
+
+.inboxdaftar{
+    width: 40%;
+    margin-bottom: 2%;
+    margin-top: 13%;
+    margin-left: 28%;
+    padding: 0 auto;
+    padding-bottom: 3%;
+    text-align: center;
+    background: rgba(182, 181, 181, 0.568);
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.inboxdaftar input{
+    border: #707070;
+    outline:grey;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px solid #0f8da3;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+}
+
+form table{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+
+::placeholder{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inboxdaftar button
+{
+    border: #707070;
+    outline: none;
+    height: 30px;
+    width: 150px;;
+    border-radius: 8px;
+    margin-top: 7%;
+    background-color: #0f8da3;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.inboxdaftar button:hover
+{
+    cursor: pointer;
+    background-color:#cad6e0;
+    color:#3E4D19;
+}
+   
+.inboxdaftar h1 img{
+    position:absolute;
+    margin-top: -10%;
+    margin-left: -10%;
+    width: 20%;
+}
+
+.inboxdaftar h2{
+    margin-top: 15%;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 180%;
+}
+
+
+
+

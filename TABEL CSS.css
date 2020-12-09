@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto; 
+}
+
+.page2{
+    background: url("bga.jpg");
+    border-image: none;
+    background-size: cover;
+    display: grid;
+}
+
+.page2 h1{
+    font-size: 250%;
+    color: white;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    margin-top: 2%;
+}
+
+table{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+th{
+    border: 0.1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #0f8da3;
+}
+
+#tabel tr td{
+    border: 0.1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;    
+    font-weight: bolder;
+}
+

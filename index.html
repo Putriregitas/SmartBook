@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tabel</title>
+    <link rel="stylesheet" href="FORM CSS.css">
+    <link rel="stylesheet" href="TABEL CSS.css">
+</head>
+
+<body onload="Welcome()">
+<section class="page1">
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">LOGOUT</a></li>
+                <li><a href="#">PROFIL</a></li>
+                <li><a href="#">BACA</a></li>
+                <li><a href="#" id="now">CATATAN</a></li>
+                <span class="#"></span>
+            </ul> 
+        </nav>
+    </div>
+    <div class="inboxdaftar">
+        <h1> <img src="logobuku.png" alt=""> </h1>
+        <h2>Catat buku Anda !</h2>
+        <form name="Pendaftaran" action="">
+            <table cellpadding="5">
+                <tr>
+                    <td><input type="text" id="nama" placeholder="Masukkan jenis buku"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="email" placeholder="Masukkan judul buku"></td>
+                </tr>
+            </table>
+            <button onclick="ValidateForm()" type="button" id="inputan">Catat</button>
+        </form>
+    </div> 
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+</section>
+<section class="page2">
+    <h1>DAFTAR BUKU ANDA</h1>
+    <table id="tabel" width="50%" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Jenis Buku</th>
+                <th>Judul Buku</th>
+            </tr>
+        </thead>
+    </table>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+</section>
+
+    <script src="FORM JS.js"></script>
+</body>
+</html>
